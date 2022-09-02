@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
+  <body>
+    <h1 id="h1">Noob's Tic-Tac-Toe</h1>
+    <div class="overallContainer">
+      <div class="boardContainer">
+        <div class="cells" data-cell-no="0"></div>
+        <div class="cells" data-cell-no="1"></div>
+        <div class="cells" data-cell-no="2"></div>
+        <div class="cells" data-cell-no="3"></div>
+        <div class="cells" data-cell-no="4"></div>
+        <div class="cells" data-cell-no="5"></div>
+        <div class="cells" data-cell-no="6"></div>
+        <div class="cells" data-cell-no="7"></div>
+        <div class="cells" data-cell-no="8"></div>
+      </div>
+      <div id="leftPane">
+        <div class="playerInfo">
+          <div class="players" id="playerOne">
+            <p>Player 1</p>
+            <p class="playerScores" id="playerOneScore">0</p>
+          </div>
+          <div class="players" id="playerTwo">
+            <p>Player 2</p>
+            <p class="playerScores" id="playerTwoScore">0</p>
+          </div>
+        </div>
+        <button id="clear">Reset Game</button>
+      </div>
+    </div>
+  </body>
+</html>
